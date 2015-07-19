@@ -1,0 +1,66 @@
+.container{
+	width: 968px;
+	padding-left: 14px;
+	padding-right: 14px;
+	margin: 0 auto;
+	min-height: 350px;
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear:both;
+}
+.row{
+	margin-left: -14px;
+	margin-right: -14px;
+	min-height: 21px;
+	padding: 3px 0;
+	margin-bottom: 3px;
+	background-color: #;
+}
+[class*="col-"] {
+	min-height: 7px;
+	background-color: #;
+	margin-bottom: 3px;
+	padding: 0 14px;
+	float: left;
+}
+.col-1{
+	width:8.333333%;
+}
+.col-2{
+	width: 16.666667%;
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	/* (4/12)*100 */
+	width: 33.33%
+}
+.col-5{
+	width: 41.6666666667%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.3333333333%;
+}
+.col-8{
+	width: 66.6666666667%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.3333333333%;
+}
+.col-11{
+	width:91.6666666667%;
+}
+.col-12{
+	width: 100%;
+}
